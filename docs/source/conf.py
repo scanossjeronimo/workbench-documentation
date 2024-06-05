@@ -6,15 +6,14 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'SBOM Workbench Documentation'
+project = 'SBOM Workbench'
 copyright = '2024, ScanOSS'
 author = 'ScanOSS'
-release = '0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser',]
+extensions = ['myst_parser']
 
 templates_path = ['_templates']
 exclude_patterns = []
